@@ -4,9 +4,7 @@ int z = 30;
 void setup()
 {
   size (800,700);
-  
   noLoop();
-  
 }
 void draw()
 {
@@ -16,8 +14,7 @@ void draw()
     z=z+30;
     noise();
     cloud();
-    coin();
-   
+    coin(); 
 }
 void cloud()
 { 
